@@ -1,0 +1,82 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "name",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_newName",
+						"type": "string"
+					}
+				],
+				"name": "updateName",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"author": "Prakash Gupta",
+			"details": "please use this in this or that way f",
+			"kind": "dev",
+			"methods": {},
+			"title": "the sample contract",
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {
+				"name()": {
+					"notice": "Pascal case"
+				},
+				"updateName(string)": {
+					"notice": "0xd9145CCE52D386f254917e481eB44e9943F39138"
+				}
+			},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/MyContract.sol": "MyContract"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/MyContract.sol": {
+			"keccak256": "0xccde0ee9fbd78cf8f019a6c15769ff5fe7e21e9a9dde9cc63dcb0779817cdf69",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://1e12e14932ed38c6a8666cd16dd05c9e466861cf3d2ebbddb1445564ad1aa9ef",
+				"dweb:/ipfs/QmdQu5dvBRg1XcvwMTXQ6pqGu9NQGjKWEL6ZTDfgp3mYrE"
+			]
+		}
+	},
+	"version": 1
+}

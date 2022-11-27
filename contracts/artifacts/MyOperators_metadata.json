@@ -1,0 +1,97 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "arithmeticExample",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "assignmentExample",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "comparsionExample",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "conditionalExample",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "logicalExample",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {
+				"arithmeticExample()": {
+					"notice": "Arithmetic Operators (+.-,*,/,%,++,--)"
+				},
+				"assignmentExample()": {
+					"notice": "Assignment Operators (+=, /=, *=, -=, %=)"
+				},
+				"comparsionExample()": {
+					"notice": "Comparsion Operators (==, >=, <=, >, >=)"
+				},
+				"conditionalExample()": {
+					"notice": "Conditional Operators (? A:B)"
+				},
+				"logicalExample()": {
+					"notice": "Logical Operators (!, &&, ||)    "
+				}
+			},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/MyOperators.sol": "MyOperators"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/MyOperators.sol": {
+			"keccak256": "0xb404e2cdcd85358c04eb2b66cac6f719f619f46ba88c4126be40b6968c77e18b",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://b83e88e6154301763f4e591e2fb58c50bc4597765c838c9b4da17fab09281e96",
+				"dweb:/ipfs/QmcDFQmeV2MtMHCFGuWJN7dQfG2ja6yZViF7NCxrR1ZjWt"
+			]
+		}
+	},
+	"version": 1
+}
