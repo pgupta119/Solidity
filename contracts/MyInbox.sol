@@ -18,8 +18,11 @@ contract MyInbox{
         message = newMessage;
     }
 
-    function getMessage() public view returns (string memory) {
-        return message;
+    function someMaths(int a, int b) pure public {
+
+        a + b;
+        a - b; 
     }
+
 
 }

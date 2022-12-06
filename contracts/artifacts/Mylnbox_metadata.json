@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/MyInbox.sol": "Mylnbox"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/MyInbox.sol": {
+			"keccak256": "0xcee53548df7aeb8764653091e20ec54ac835365056b649d72910bc1a814ce97a",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://72c9b2a021c256f86db0f244288badf3a3ea65730d529def34df176b7e28cc2b",
+				"dweb:/ipfs/QmbRpoGV4wdg3wENPyytZakUEWbTfLp5XLsy6zkJEhkuaW"
+			]
+		}
+	},
+	"version": 1
+}
